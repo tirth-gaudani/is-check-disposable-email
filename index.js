@@ -1,4 +1,4 @@
-const allDomains = require('./domains.json');
+const allDomains = require('disposable-email-domains');
 var domains = {};
 allDomains?.forEach(function (domain) { domains[domain] = true; });
 
@@ -19,4 +19,5 @@ function isCheckDisposableEmail(email) {
         return false;
     }
 }
+
 module.exports = isCheckDisposableEmail;

@@ -1,6 +1,6 @@
 {
   "name": "is-check-disposable-email",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A lightweight utility to check if an email address belongs to a disposable email provider, helping to prevent fake or temporary email usage in applications.",
   "main": "index.js",
   "scripts": {
@@ -11,12 +11,14 @@
     "url": "git+https://github.com/tirth-gaudani/is-check-disposable-email.git"
   },
   "keywords": [
+    "disposable-email-domains",
     "is-check-disposable-email",
     "check-disposable-email",
     "disposable-email",
     "email",
     "disposable",
     "check-disposable",
+    "email-domains",
     "disposable-email-restricted"
   ],
   "author": "Tirth Gaudani",
@@ -24,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/tirth-gaudani/is-check-disposable-email/issues"
   },
-  "homepage": "https://github.com/tirth-gaudani/is-check-disposable-email#readme"
+  "homepage": "https://github.com/tirth-gaudani/is-check-disposable-email#readme",
+  "dependencies": {
+    "disposable-email-domains": "^1.0.62"
+  }
 }
