@@ -1,4 +1,4 @@
-const allDomains = require('disposable-email-domains');
+const allDomains = require('./disposable_email_list.json');
 var domains = {};
 allDomains?.forEach(function (domain) { domains[domain] = true; });
 
@@ -15,7 +15,7 @@ function isCheckDisposableEmail(email) {
             }
         }
     } catch (e) {
-        console.error('error in isCheckDisposableEmail =----->>    ', e);
+        console.error("\x1b[31m error in isCheckDisposableEmail =----->>    ", e);
         return false;
     }
 }
