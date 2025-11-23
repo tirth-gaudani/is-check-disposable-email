@@ -1,7 +1,7 @@
 {
   "name": "is-check-disposable-email",
-  "version": "0.0.4",
-  "description": "A lightweight utility to check if an email address belongs to a disposable email provider, helping to prevent fake or temporary email usage in applications.",
+  "version": "1.0.0",
+  "description": "The ultimate disposable email detector. Instantly block over 158,000+ fake, temporary, and burner email domains. Protect your app from spam, fraud, and abuse with this lightweight, high-performance utility.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,8 +19,18 @@
     "check-disposable",
     "email-domains",
     "disposable-email-restricted",
-    "We block over 1,21,916 temporary email domains",
-    "block temporary email domains"
+    "spam-blocker",
+    "email-validation",
+    "fake-email",
+    "burner-email",
+    "temporary-mail",
+    "trash-mail",
+    "throwaway-email",
+    "fraud-prevention",
+    "security",
+    "validation",
+    "yopmail",
+    "mailinator"
   ],
   "author": "Tirth Gaudani",
   "license": "MIT",
